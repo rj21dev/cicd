@@ -17,7 +17,7 @@ pipeline {
             steps {
                 echo " ==== Start building image ==== "
                 dir ('devops') {
-                    sh 'docker build -t test:1.0 .'
+                    sh 'docker build -t test:2.0 .'
                 }
             }
         }
